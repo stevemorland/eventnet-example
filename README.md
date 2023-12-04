@@ -1,1 +1,1 @@
-# eventnet-example
+# EventNet test application
