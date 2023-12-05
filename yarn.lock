@@ -1428,10 +1428,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@leighton-digital/eventnet@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@leighton-digital/eventnet/-/eventnet-0.0.3.tgz#6c368ccd9e0ee93213ddd58a37f6175937b4af5d"
-  integrity sha512-sVwz+oMVmjB9byzO6zTscQQqGx/62th/jb452kTjlMNBzfHngpwORELhUPTArrLol+VXfg4qfrZyfvqqeTrI6A==
+"@leighton-digital/eventnet@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@leighton-digital/eventnet/-/eventnet-0.0.4.tgz#f8e31f8a786e5668c4ee631412c38e03b09d9ced"
+  integrity sha512-S+99ew641KfafT4wUAolx+sUSGHoOVR/a2IYR3tzmbhhXuKtmtyOOHoiL+8dYrgh/Quj6g0v8bGLNbWtQKH3RA==
   dependencies:
     "@aws-sdk/client-apigatewaymanagementapi" "^3.454.0"
     "@aws-sdk/client-dynamodb" "^3.348.0"
