@@ -540,19 +540,9 @@
     mnemonist "0.38.3"
     tslib "^2.5.0"
 
-"@aws-sdk/lib-dynamodb@^3.348.0":
+"@aws-sdk/lib-dynamodb@^3.348.0", "@aws-sdk/lib-dynamodb@^3.465.0":
   version "3.465.0"
   resolved "https://registry.npmjs.org/@aws-sdk/lib-dynamodb/-/lib-dynamodb-3.465.0.tgz"
-  integrity sha512-l/jxVkdoetTsBaWxffC8X9Gp0k5m7I6yM0dMow+p0fCzOip5JVkSBI08dgQZGD0ECzxBEwW8vxdu84BLn2sS0A==
-  dependencies:
-    "@aws-sdk/util-dynamodb" "3.465.0"
-    "@smithy/smithy-client" "^2.1.15"
-    "@smithy/types" "^2.5.0"
-    tslib "^2.5.0"
-
-"@aws-sdk/lib-dynamodb@^3.465.0":
-  version "3.465.0"
-  resolved "https://registry.yarnpkg.com/@aws-sdk/lib-dynamodb/-/lib-dynamodb-3.465.0.tgz#630f8645ef63b9d965e23d9310a49346072226b0"
   integrity sha512-l/jxVkdoetTsBaWxffC8X9Gp0k5m7I6yM0dMow+p0fCzOip5JVkSBI08dgQZGD0ECzxBEwW8vxdu84BLn2sS0A==
   dependencies:
     "@aws-sdk/util-dynamodb" "3.465.0"
@@ -1438,10 +1428,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@leighton-digital/eventnet@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@leighton-digital/eventnet/-/eventnet-0.0.2.tgz"
-  integrity sha512-lQVyTUZ0q4eJ89dDwdSl+1A3Rl79iIZpgE6jcyAPe4eA0fAOEqpWsnb+2rehJK7Uedt38hY0tpmQrVVRFuxVAQ==
+"@leighton-digital/eventnet@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@leighton-digital/eventnet/-/eventnet-0.0.3.tgz#6c368ccd9e0ee93213ddd58a37f6175937b4af5d"
+  integrity sha512-sVwz+oMVmjB9byzO6zTscQQqGx/62th/jb452kTjlMNBzfHngpwORELhUPTArrLol+VXfg4qfrZyfvqqeTrI6A==
   dependencies:
     "@aws-sdk/client-apigatewaymanagementapi" "^3.454.0"
     "@aws-sdk/client-dynamodb" "^3.348.0"

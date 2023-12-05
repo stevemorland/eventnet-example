@@ -35,6 +35,7 @@ describe("Basic Test for Consumer > ", () => {
   test("Add data to DDB, capture outcome", async () => {
     const id = uuidv4();
     const eventNet = await EventNetClient.create();
+    await eventNet.waitForOpenSocket();
     const Item = {
       EventBusName: eventBusName,
       Source: "another.service",

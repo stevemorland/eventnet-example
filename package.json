@@ -27,7 +27,7 @@
     "uuid": "^9.0.1"
   },
   "dependencies": {
-    "@leighton-digital/eventnet": "^0.0.2",
+    "@leighton-digital/eventnet": "^0.0.3",
     "aws-cdk-lib": "^2.113.0",
     "constructs": "^10.0.0",
     "global": "^4.4.0",
