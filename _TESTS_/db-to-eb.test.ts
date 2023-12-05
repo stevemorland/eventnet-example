@@ -1,5 +1,6 @@
 // Example of how to run tests
 //yarn test:int --stack=eventnet-test-stack --profile=leighton-dev --region=eu-west-2  --runInBand
+
 // @ts-nocheck
 import { EventNetClient, stackName } from "@leighton-digital/eventnet";
 import { saveToDynamo, getFromDynamo } from "./utils/dynamoDBClient";
