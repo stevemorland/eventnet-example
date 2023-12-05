@@ -1,0 +1,41 @@
+{
+  "$id": "producer.schema",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "producer.schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        },
+        "service": {
+          "type": "string"
+        },
+        "correlationId": {
+          "type": "string"
+        }
+      },
+      "required": ["domain", "service", "correlationId"]
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "PK": {
+          "type": "string"
+        },
+        "SK": {
+          "type": "string"
+        },
+        "someValue": {
+          "type": "string"
+        }
+      },
+      "required": ["PK", "SK", "someValue"]
+    }
+  },
+  "required": ["metadata", "data"]
+}

@@ -1,0 +1,35 @@
+{
+  "$id": "consumer.schema",
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "consumer.schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "domain": {
+          "type": "string"
+        },
+        "service": {
+          "type": "string"
+        },
+        "correlationId": {
+          "type": "string"
+        }
+      },
+      "required": ["domain", "service", "correlationId"]
+    },
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "someValue": {
+          "type": "string"
+        }
+      },
+      "required": ["someValue"]
+    }
+  },
+  "required": ["metadata", "data"]
+}
